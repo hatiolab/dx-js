@@ -13,7 +13,4 @@ buffer.flip();
 header = new Header();
 header.unmarshalling(buffer);
 
-console.log("Header packetSize : " + header.packetSize);
-console.log("Header type : " + header.type);
-console.log("Header code : " + header.code);
-console.log("Header dataType : " + header.dataType);
+console.log("Header => " + JSON.stringify(header));

@@ -14,3 +14,5 @@ exports.createDiscoveryClient = function(port) {
   return require('./lib/net/discovery-client').create(port);
 }
 
+exports.Header = require('./lib/packet/header');
+exports.Packet = require('./lib/packet/packet');
