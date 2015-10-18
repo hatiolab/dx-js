@@ -1,0 +1,9 @@
+{
+  "net": {
+    "discovery": {
+      "socket-type": "udp4",
+      "default-port": 5015,
+      "broadcast-address": "255.255.255.255"
+    }
+  }
+}

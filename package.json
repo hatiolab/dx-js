@@ -1,0 +1,17 @@
+{
+  "name": "dx-net",
+  "version": "0.0.2",
+  "description": "nodejs library for dx",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/all.js"
+  },
+  "keywords": [
+    "dx"
+  ],
+  "author": "heartyoh <heartyoh@hatiolab.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bytebuffer": "^4.1.0"
+  }
+}
