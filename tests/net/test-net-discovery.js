@@ -1,4 +1,4 @@
-var dx = require('../../index.js');
+var dx = require('../../index');
 
 var discoveryServer = dx.createDiscoveryServer();
 var discoveryClient = dx.createDiscoveryClient();

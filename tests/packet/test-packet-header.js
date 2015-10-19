@@ -4,9 +4,9 @@ var expect = require('chai').expect;
 
 var ByteBuffer = require('bytebuffer');
 
-var Header = require('../../lib/packet/header.js');
+var Header = require('../../lib/packet/header');
 
-describe('header marshalling', function() {
+describe('header', function() {
   describe('marshalling', function() {
     it('should be same as unmarshalled header!', function() {
       var type = 1;
@@ -22,8 +22,6 @@ describe('header marshalling', function() {
 
       header = new Header();
       header.unmarshalling(buffer);
-
-      console.log("Header => " + JSON.stringify(header));
 
       expect(header.type).equal(type);
       expect(header.code).equal(code);
