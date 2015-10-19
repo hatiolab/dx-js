@@ -4,7 +4,8 @@
   "description": "nodejs library for dx",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/all.js"
+    "test": "node tests/all.js",
+    "discovery": "scripts/discovery.sh"
   },
   "keywords": [
     "dx"
