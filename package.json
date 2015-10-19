@@ -1,6 +1,6 @@
 {
   "name": "dx-net",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "nodejs library for dx",
   "main": "index.js",
   "scripts": {
