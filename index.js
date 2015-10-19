@@ -2,8 +2,10 @@
 
 global.config = require('./config');
 
-exports.print = function() {
-  console.log("dx-js version 0.0.0\n");
+var dx_package = require('./package');
+
+exports.printInfo = function() {
+  console.log("dx-js version : " + dx_package.version);
 }
 
 exports.createDiscoveryServer = function(port) {
