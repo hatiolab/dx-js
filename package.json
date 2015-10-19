@@ -1,10 +1,10 @@
 {
   "name": "dx-net",
-  "version": "0.0.7",
+  "version": "0.1.0-beta.0",
   "description": "nodejs library for dx",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/all.js",
+    "test": "mocha tests/**/test-*.js -w",
     "discovery": "scripts/discovery.sh"
   },
   "keywords": [
@@ -18,5 +18,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/hatiolab/dx-js.git"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
   }
 }
