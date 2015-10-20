@@ -16,6 +16,14 @@ exports.createDiscoveryClient = function(port) {
   return require('./lib/net/discovery-client').create(port);
 }
 
+exports.createPacketServer = function(port) {
+  return require('./lib/net/packet-server').create(port);
+}
+
+exports.createPacketClient = function(port) {
+  return require('./lib/net/packet-client').create(port);
+}
+
 exports.Header = require('./lib/packet/header');
 exports.Packet = require('./lib/packet/packet');
 exports.DataType = require('./lib/packet/data-type');
