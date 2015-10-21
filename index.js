@@ -27,3 +27,5 @@ exports.createPacketClient = function(port) {
 exports.Header = require('./lib/packet/header');
 exports.Packet = require('./lib/packet/packet');
 exports.DataType = require('./lib/packet/data-type');
+exports.Code = require('./lib/packet/code');
+exports.Type = require('./lib/packet/type');

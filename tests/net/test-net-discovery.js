@@ -6,5 +6,5 @@ var discoveryClient = dx.createDiscoveryClient();
 discoveryServer.start();
 discoveryClient.start();
 
-discoveryClient.stop();
-discoveryServer.stop();
+// discoveryClient.stop();
+// discoveryServer.stop();
